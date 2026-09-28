@@ -1,0 +1,72 @@
+Configuration	EX9
+STM32CubeMX 	6.3.0
+Date	09/15/2026
+MCU	STM32F103C6Ux
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	No Debug	SYS_VS_ND	VP_SYS_VS_ND
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+14	PA4	GPIO_Output	PIN_1
+15	PA5	GPIO_Output	PIN_2
+16	PA6	GPIO_Output	PIN_3
+17	PA7	GPIO_Output	PIN_4
+29	PA8	GPIO_Output	PIN_5
+30	PA9	GPIO_Output	PIN_6
+31	PA10	GPIO_Output	PIN_7
+32	PA11	GPIO_Output	PIN_8
+33	PA12	GPIO_Output	PIN_9
+34	PA13	GPIO_Output	PIN_10
+37	PA14	GPIO_Output	PIN_11
+38	PA15	GPIO_Output	PIN_12
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	No Debug	SYS_VS_ND	VP_SYS_VS_ND
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+14	PA4	GPIO_Output	PIN_1
+15	PA5	GPIO_Output	PIN_2
+16	PA6	GPIO_Output	PIN_3
+17	PA7	GPIO_Output	PIN_4
+29	PA8	GPIO_Output	PIN_5
+30	PA9	GPIO_Output	PIN_6
+31	PA10	GPIO_Output	PIN_7
+32	PA11	GPIO_Output	PIN_8
+33	PA12	GPIO_Output	PIN_9
+34	PA13	GPIO_Output	PIN_10
+37	PA14	GPIO_Output	PIN_11
+38	PA15	GPIO_Output	PIN_12
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : EX9
+Project Folder : F:\LabVXL\VXL_VDK_Lab\LAB1\EX9\STM32
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_F1 V1.8.7
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
