@@ -58,7 +58,7 @@ void updateClockBuffer(void);
 /* USER CODE BEGIN 0 */
 const int MAX_LED = 4;
 int index_led = 0;
-int led_buffer[4] = {1, 2, 3, 0};
+int led_buffer[4] = {1, 5, 0, 8};
 
 int led_counter = 1;
 int dot_counter = 1;
@@ -119,7 +119,6 @@ int main(void)
           if (hour >= 24) {
               hour = 0;
           }
-
           updateClockBuffer();
           HAL_Delay(1000);
 
