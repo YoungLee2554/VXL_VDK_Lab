@@ -1,0 +1,4 @@
+input_processing.c:24:13:handle_button_press	16	static
+input_processing.c:102:13:fsm_traffic_normal	8	static
+input_processing.c:182:6:traffic_light_init	8	static
+input_processing.c:190:6:fsm_for_input_processing	16	static

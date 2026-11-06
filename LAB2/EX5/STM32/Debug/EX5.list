@@ -165,10 +165,9 @@ int main(void)
  80001aa:	2200      	movs	r2, #0
  80001ac:	601a      	str	r2, [r3, #0]
           }
-
-          updateClockBuffer(); // Đã được đưa vào trong vòng lặp
+          updateClockBuffer();
  80001ae:	f000 f953 	bl	8000458 <updateClockBuffer>
-          HAL_Delay(1000);     // Đã được đưa vào trong vòng lặp
+          HAL_Delay(1000);
  80001b2:	f44f 707a 	mov.w	r0, #1000	; 0x3e8
  80001b6:	f000 fb4f 	bl	8000858 <HAL_Delay>
           second++;
